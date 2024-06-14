@@ -10,9 +10,8 @@ public:
             else return false;
         }
         if(dp[i][sum] != -1 ) return dp[i][sum];
-        ll donttake = solve(nums,i+1,sum);
-        ll take = solve(nums,i+1,sum + nums[i]) ;
-        return  dp[i][sum] = donttake || take ;
+        if(sum <= targetsum) return dp[i][sum] = solve(nums,i+1,sum) || solve(nums,i+1,sum + nums[i]) ;
+        else return dp[i][sum] = solve(nums,i+1,sum);
     }
     bool canPartition(vector<int>& nums) {
     ll n = nums.size();
