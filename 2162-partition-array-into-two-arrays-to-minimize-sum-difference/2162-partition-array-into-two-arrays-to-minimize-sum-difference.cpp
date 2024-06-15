@@ -43,14 +43,11 @@ public:
         for(ll i =0 ; i <= n ; i++) {
             for(ll j : a[i]) {
                 ll target = sum / 2 - j ;
-                // for(ll k : b[n-i]){
-                //     if(k <= target) mindiff = min(mindiff,abs(sum-2*(k+j)));
-                //     else break;
-                // }
+
                 ll k = find_first_false(0,b[n-i].size(),[&](ll mid){
                     return b[n-i][mid] <= target;
                 });
-                if(k >= 0  && k < b[n-i].size() ) mindiff = min(mindiff,abs(sum-2*(b[n-i][k]+j)));
+                mindiff = min(mindiff,abs(sum-2*(b[n-i][k]+j)));
             }
         }
         return mindiff ; 
