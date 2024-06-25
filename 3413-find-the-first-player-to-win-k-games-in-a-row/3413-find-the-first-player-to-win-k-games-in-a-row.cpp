@@ -28,7 +28,8 @@ public:
         }
         q.push_front(t1) ;
         q.push_back(t2);
-        last = max(t2,t1);
+        // last = max(t2,t1);
+        last = t1;
 }
     // cout<<mp[mx]<<endl;
     return mp[mx] ;
