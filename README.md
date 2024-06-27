@@ -49,3 +49,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3456-find-the-maximum-length-of-a-good-subsequence-i](https://github.com/avikant0-0/striver/tree/master/3456-find-the-maximum-length-of-a-good-subsequence-i) |
+# String
+|  |
+| ------- |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/avikant0-0/striver/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+# Stack
+|  |
+| ------- |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/avikant0-0/striver/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
