@@ -59,3 +59,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/avikant0-0/striver/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/avikant0-0/striver/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
+<!---LeetCode Topics End-->
