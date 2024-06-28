@@ -53,7 +53,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/avikant0-0/striver/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/avikant0-0/striver/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 # Stack
 |  |
 | ------- |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/avikant0-0/striver/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/avikant0-0/striver/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
