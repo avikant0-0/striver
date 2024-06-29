@@ -69,8 +69,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
+| [1250-longest-common-subsequence](https://github.com/avikant0-0/striver/tree/master/1250-longest-common-subsequence) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
+## String
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/avikant0-0/striver/tree/master/1250-longest-common-subsequence) |
 <!---LeetCode Topics End-->
