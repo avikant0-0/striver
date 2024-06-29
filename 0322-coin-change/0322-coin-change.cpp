@@ -1,21 +1,24 @@
 class Solution {
 public:
-    vector<int> t;
-    int f(auto &coins, int amount){
-        if(amount < 0 ) return INT_MAX ;
+    using ll = long long; 
+    vector<ll> dp;
+    ll f(auto &coins,ll amount){
         if(amount == 0) return 0;
-        if(t[amount] != -1 ) return t[amount] ;
-        int best = INT_MAX ; 
-        for(auto i : coins) {
-            int temp = f(coins, amount - i) ;
-            if(temp != INT_MAX) 
-            best = min(best , temp + 1) ;
+        if(amount < 0) return INT_MAX;
+        if(dp[amount]!=-1)return dp[amount] ;
+        ll ans = INT_MAX;
+        for(auto c : coins) {
+            ans = min(ans,f(coins,amount-c)+1);
         }
-        return t[amount] = best ; 
+        dp[amount] = ans;
+        return  ans;
     }
-    int coinChange(vector<int>& coins, int amount) {
-        t.assign(1e4+1 , -1 );
-        int ans = f(coins, amount) ;
-        return  ans != INT_MAX ? ans : -1 ;
+
+    ll coinChange(vector<int>& coins, ll amount) {
+        dp.assign(amount+1,-1);
+        ll ans =f(coins,amount) ;
+        
+        if(ans < INT_MAX) return ans;
+        else return -1;
     }
 };
