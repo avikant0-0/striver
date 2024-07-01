@@ -8,7 +8,7 @@ public:
     bool isSubsequence(string s, string t) {
         int m = s.length();
         int n = t.length();
-        if(m > n) return false;
+        // if(m > n) return false;
         return f(s,t,m-1,n-1) == m; 
     }
 };
