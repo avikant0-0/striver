@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
 ## Dynamic Programming
 |  |
@@ -86,4 +87,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
+## Hash Table
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
