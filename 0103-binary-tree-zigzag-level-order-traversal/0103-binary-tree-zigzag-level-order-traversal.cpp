@@ -15,22 +15,21 @@ public:
         queue<TreeNode*> q;
         vector<vector<int>> res;
         if(root == nullptr) return res; 
-
+        bool islefttoright = true;
         q.push(root);
         while(!q.empty()){
             int size = q.size();
-            vector<int> level;
+            vector<int> level(size);
             for(int i = 0;i < size;i++){
                 TreeNode* front = q.front();
                 q.pop();
-                level.push_back(front->val);
+                int index = (islefttoright ? i : size - i - 1);
+                level[index] = front->val;
                 if(front->left != NULL) q.push(front->left);
                 if(front->right != NULL) q.push(front->right);
             }
+            islefttoright = !islefttoright;
             res.push_back(level);
-        }
-        for(int i=0;i < res.size(); i++){
-            if(i%2) reverse(res[i].begin(),res[i].end());
         }
         return res;
     }
