@@ -12,23 +12,24 @@
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        map<int,int> mp ;
+        map<int,int> hash;
         for(int i = 0; i < inorder.size(); i++){
-            mp[inorder[i]] = i ;
+            hash[inorder[i]] = i ;
         }
-        return f(preorder,inorder,0,preorder.size()-1,0,inorder.size()-1,mp);
-    }
 
-    TreeNode* f(auto& preorder,auto& inorder,int preStart,int preEnd,int inStart,int inEnd,map<int,int>& mp){
+        auto f = [&](int preStart,int preEnd,int inStart,int inEnd,auto&& f)->TreeNode*{
+            if(preStart > preEnd || inStart > inEnd) return nullptr;
 
-        if(preStart > preEnd || inStart > inEnd) return nullptr; 
+            TreeNode* root = new TreeNode(preorder[preStart]);
 
-        TreeNode* root = new TreeNode(preorder[preStart]);
-        int numleft = mp[preorder[preStart]] - inStart;
+            int noLeft = hash[preorder[preStart]] - inStart;
 
-        root->left = f(preorder,inorder,preStart+1,preStart+numleft,inStart,mp[preorder[preStart]]-1,mp);
-        root->right = f(preorder,inorder,preStart + numleft + 1 , preEnd,mp[preorder[preStart]] + 1 , inEnd, mp);
+            root->left = f(preStart+1,preStart+noLeft,inStart,hash[preorder[preStart]]-1,f);
+            root->right = f(preStart+noLeft+1,preEnd,hash[preorder[preStart]]+1 , inEnd,f); 
 
-        return root ; 
+            return root;
+        };
+
+        return f(0,preorder.size()-1,0,inorder.size()-1,f);
     }
 };
