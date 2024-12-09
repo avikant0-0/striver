@@ -30,10 +30,7 @@ public:
                 if(front->right) par[front->right] = front, q.push(front->right); 
             }
         }
-        for(auto i : par) {
-            if(i.second) cout << i.first->val <<" " << i.second->val << endl;
-        }
-
+    
         vector<int> ans;
 
         q.push(target);
