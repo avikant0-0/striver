@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/avikant0-0/striver/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## String
 |  |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Divide and Conquer
 |  |
@@ -141,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0543-diameter-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -159,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0543-diameter-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Stack
 |  |
@@ -179,5 +183,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0543-diameter-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
