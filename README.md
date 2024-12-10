@@ -74,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/avikant0-0/striver/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/avikant0-0/striver/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/avikant0-0/striver/tree/master/0213-house-robber-ii) |
@@ -199,4 +200,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/avikant0-0/striver/tree/master/0222-count-complete-tree-nodes) |
+## Math
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
