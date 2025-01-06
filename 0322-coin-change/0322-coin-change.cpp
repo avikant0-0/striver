@@ -1,24 +1,23 @@
 class Solution {
 public:
-    using ll = long long; 
-    vector<ll> dp;
-    ll f(auto &coins,ll amount){
-        if(amount == 0) return 0;
-        if(amount < 0) return INT_MAX;
-        if(dp[amount]!=-1)return dp[amount] ;
-        ll ans = INT_MAX;
-        for(auto c : coins) {
-            ans = min(ans,f(coins,amount-c)+1);
-        }
-        dp[amount] = ans;
-        return  ans;
-    }
+    int coinChange(vector<int>& coins, int amount) {
+        vector<long long> dp(amount + 1 , -1);
 
-    ll coinChange(vector<int>& coins, ll amount) {
-        dp.assign(amount+1,-1);
-        ll ans =f(coins,amount) ;
-        
-        if(ans < INT_MAX) return ans;
-        else return -1;
+        auto f = [&](int amount,auto&& f)->long long{
+            if(amount == 0) return 0;
+
+            if(dp[amount] != -1) return dp[amount];
+
+            long long ans = INT_MAX;
+
+            for(auto c : coins){
+                if(amount - c >= 0) ans = min(ans, 1 + f(amount - c,f));
+                // else return ans = min(ans,f(amount,f));
+            }
+
+            return dp[amount] = ans; 
+        };
+
+        return f(amount,f) >= INT_MAX ? -1 : f(amount,f);
     }
 };
