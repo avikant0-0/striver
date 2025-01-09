@@ -6,24 +6,31 @@ public:
 
         if( (tsum + target) % 2 != 0 || tofind < 0) return 0;
         
-        vector<vector<int>> dp(nums.size(),vector<int> (tofind+1,-1));
+        // vector<vector<int>> dp(nums.size(),vector<int> (tofind+1,0));
+        vector<int> prev(tofind+1,0);
 
-        auto f = [&](int i,int T,auto&& f)->int{
-            if(i == 0){
-                if(T == 0 && nums[0] == 0) return 2;
-                if(T == 0 || T == nums[0]) return 1;
-                return 0;
+        // for(int i = 0; i < nums.size(); i++) dp[i][0] = 1;
+
+        if(nums[0] == 0) prev[0] = 2;
+        else prev[0] = 1 ;
+
+        if(nums[0] != 0 && nums[0] <= tofind) prev[nums[0]] = 1; 
+
+        for(int i = 1; i < nums.size(); i++)
+        {   
+            vector<int> curr(tofind + 1,0);
+            for(int T = 0; T <= tofind; T++)
+            {
+                int exclude = prev[T];
+
+                int include = 0 ;
+                if(T - nums[i] >= 0) include = prev[T-nums[i]];
+
+                curr[T] = exclude + include ;
             }
-    
-            if(dp[i][T] != -1) return dp[i][T];
+            prev = curr;
+        }
 
-            int include = 0;
-            if(T - nums[i] >= 0) include = f(i - 1, T - nums[i], f);
-            int exclude = f(i-1,T,f);
-
-            return dp[i][T] = include + exclude; 
-        };
-
-        return f(nums.size() - 1, tofind, f) ; 
+        return prev[tofind] ; 
     }
 };
