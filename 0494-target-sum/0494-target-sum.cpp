@@ -8,12 +8,13 @@ public:
         
         vector<vector<int>> dp(nums.size(),vector<int> (tofind+1,-1));
 
-        auto f = [&](int i,int T,auto&& f){
-            if(i == -1) {
-                if(T == 0) return 1;
-                else return 0;
+        auto f = [&](int i,int T,auto&& f)->int{
+            if(i == 0){
+                if(T == 0 && nums[0] == 0) return 2;
+                if(T == 0 || T == nums[0]) return 1;
+                return 0;
             }
-
+    
             if(dp[i][T] != -1) return dp[i][T];
 
             int include = 0;
