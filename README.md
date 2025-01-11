@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/avikant0-0/striver/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
+| [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## String
@@ -201,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0145-binary-tree-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Search
@@ -231,4 +233,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
