@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0038-count-and-say](https://github.com/avikant0-0/striver/tree/master/0038-count-and-say) |
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/avikant0-0/striver/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1250-longest-common-subsequence](https://github.com/avikant0-0/striver/tree/master/1250-longest-common-subsequence) |
