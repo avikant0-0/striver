@@ -15,7 +15,7 @@ public:
         mid++; 
 	}
 	else if(nums[mid] == 2){
-		while(high-1 >=0 && high - 1 > mid && nums[high-1] == 2 && nums[high] == 2) high -= 1; 
+		while(high - 1 > mid && nums[high-1] == 2 && nums[high] == 2) high -= 1; 
        
         swap(nums[mid],nums[high]); 
         high -= 1; 
