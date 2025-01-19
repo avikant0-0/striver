@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/avikant0-0/striver/tree/master/0031-next-permutation) |
+| [0053-maximum-subarray](https://github.com/avikant0-0/striver/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/avikant0-0/striver/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/avikant0-0/striver/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/avikant0-0/striver/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -137,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/avikant0-0/striver/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
