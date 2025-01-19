@@ -2,9 +2,9 @@ class Solution {
 public:
     void sortColors(vector<int>& nums){
 	int n = nums.size();
-	int low = 0, mid = 0,high = n ; 
+	int low = 0, mid = 0,high = n - 1 ; 
 	
-	while(mid < high){
+	while(mid <= high){
 		if(nums[mid] == 1){
  		mid++;
                         continue;
@@ -15,9 +15,10 @@ public:
         mid++; 
 	}
 	else if(nums[mid] == 2){
-		while(high - 1 >= 0 && nums[high-1] == 2) high -= 1;   
-		high -= 1 ; 
-		if(high >= 0 && high > mid ) swap(nums[mid],nums[high]);
+		while(high-1 >=0 && high - 1 > mid && nums[high-1] == 2 && nums[high] == 2) high -= 1; 
+       
+        swap(nums[mid],nums[high]); 
+        high -= 1; 
 	}
 	}
 }
