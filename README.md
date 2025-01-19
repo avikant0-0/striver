@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/avikant0-0/striver/tree/master/0031-next-permutation) |
 | [0056-merge-intervals](https://github.com/avikant0-0/striver/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -122,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/avikant0-0/striver/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0031-next-permutation](https://github.com/avikant0-0/striver/tree/master/0031-next-permutation) |
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 ## Hash Table
