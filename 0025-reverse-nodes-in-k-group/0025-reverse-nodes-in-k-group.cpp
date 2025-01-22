@@ -31,7 +31,6 @@ public:
         curr = head; 
         ListNode* next = curr->next;
 
-        int flag = 0; 
         ListNode* originalNode; 
 
         for(int i = 0; i < reversals; i++){
@@ -44,7 +43,6 @@ public:
             }
             d->next = prev; 
             d = originalNode; 
-            flag = 1;
         }
 
         d->next = curr;
