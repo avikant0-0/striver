@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/avikant0-0/striver/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/avikant0-0/striver/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/avikant0-0/striver/tree/master/0021-merge-two-sorted-lists) |
 | [0237-delete-node-in-a-linked-list](https://github.com/avikant0-0/striver/tree/master/0237-delete-node-in-a-linked-list) |
@@ -243,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/avikant0-0/striver/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
 ## Combinatorics
 |  |
@@ -281,5 +283,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/avikant0-0/striver/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/avikant0-0/striver/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
