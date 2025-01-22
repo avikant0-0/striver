@@ -11,34 +11,36 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode newHead(0);
-        ListNode* newHead_d = &newHead;
+
+        if(!list1 || !list2) {
+           if(!list1) return list2;
+           else if(!list2) return list1; 
+           else return nullptr; 
+        }
+        ListNode* temp; 
+        if(list1->val > list2->val) swap(list1,list2);
+
+        ListNode* st = list1;
+
 
         while(list1 && list2){
-            if(list1 -> val <= list2->val ) {
-                newHead_d->next = list1; 
-                list1 = list1->next;  
-                newHead_d = newHead_d->next; 
+            if(list1 && list1->val <= list2->val){
+                temp = list1;
+                list1 = list1->next;
             }
-            else {
-                newHead_d->next = list2; 
-                list2 = list2->next; 
-                newHead_d = newHead_d->next; 
+            else{
+                temp->next = list2;
+                if(!list1 || !list2) break;
+                if(list1 && list2 && list1->val > list2->val) swap(list1,list2);
             }
         }
 
-        while(list1){
-            newHead_d->next = list1; 
-            list1 = list1->next;  
-            newHead_d = newHead_d->next; 
-        }
-        while(list2){
-            newHead_d->next = list2; 
+        while(list2) {
+            temp->next = list2;
+            temp = list2; 
             list2 = list2->next; 
-            newHead_d = newHead_d->next; 
         }
 
-        // newHead = newHead.next;
-        return newHead.next; 
+        return st; 
     }
 };
