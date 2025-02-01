@@ -11,7 +11,7 @@ public:
 
         int i = 0, j = n - 1; 
 
-        while(i <= j){
+        while(i < j){
             if(height[i] <= height[j]){
                 int curr = P - height[i];
                 if(curr>0){
