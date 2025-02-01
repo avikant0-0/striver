@@ -2,22 +2,33 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         int n = height.size();
-        vector<int> S(n);
-        int P = height[0];
 
-        S[n-1] = height[n-1];
-        for(int i = n - 2; i >= 0; i--){
-            S[i] = max(S[i+1],height[i]);
-        }
+        int P = 0;
+        int S = 0;
+       
 
         int ans = 0;
 
-        for(int i = 1; i < n - 1; i++){
-            int curr = min(P,S[i+1]) - height[i];
-            P = max(P,height[i]);
-            if(curr < 0) continue;
-            ans += curr;
+        int i = 0, j = n - 1; 
+
+        while(i <= j){
+            if(height[i] <= height[j]){
+                int curr = P - height[i];
+                if(curr>0){
+                    ans += curr;
+                }
+                P = max(P,height[i]);
+                ++i;
+            }else{
+                int curr = S - height[j];
+                if(curr>0){
+                    ans += curr;
+                }
+                S = max(S,height[j]);
+                --j;
+            }
         }
+        
         return ans ;
     }
 };
