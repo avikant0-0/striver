@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0102-binary-tree-level-order-traversal](https://github.com/avikant0-0/striver/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/avikant0-0/striver/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -126,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/avikant0-0/striver/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/avikant0-0/striver/tree/master/0038-count-and-say) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
 | [0686-repeated-string-match](https://github.com/avikant0-0/striver/tree/master/0686-repeated-string-match) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/avikant0-0/striver/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/avikant0-0/striver/tree/master/0222-count-complete-tree-nodes) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/avikant0-0/striver/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -239,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/avikant0-0/striver/tree/master/0222-count-complete-tree-nodes) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/avikant0-0/striver/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -270,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0145-binary-tree-postorder-traversal) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/avikant0-0/striver/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -350,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/avikant0-0/striver/tree/master/0173-binary-search-tree-iterator) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Iterator
 |  |
 | ------- |
