@@ -2,7 +2,6 @@ class Solution {
 public:
     void dfs(const vector<int>& nums, set<vector<int>>& st, int i, vector<int> res){
         if(i == nums.size()){
-            sort(res.begin(),res.end());
             st.insert(res);
             return;
         }
@@ -14,6 +13,8 @@ public:
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         set<vector<int>> st; 
+        sort(nums.begin(),nums.end());
+        
         dfs(nums,st,0,vector<int>());
         vector<vector<int>> answer(st.begin(),st.end());
 
