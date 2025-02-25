@@ -5,14 +5,21 @@ public:
             st.push_back(res);
             return;
         }
-        
-        res.push_back(nums[i]);
-        dfs(nums,st,i+1,res);
-        res.pop_back();
 
-        int ub = upper_bound(nums.begin(),nums.end(),nums[i])-nums.begin();
+        int ind = upper_bound(nums.begin(),nums.end(),nums[i])-nums.begin();
 
-        dfs(nums,st,ub,res); 
+        for(int j = i; j < ind; j++){
+            for(int k = 0; k < ind - j ; k++){
+                res.push_back(nums[i]);
+            }
+            dfs(nums,st,ind,res);
+            for(int k = 0; k < ind - j ; k++){
+                res.pop_back(); 
+            }
+        }
+
+        dfs(nums,st,ind,res); 
+
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         vector<vector<int>> st; 
