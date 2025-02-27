@@ -1,8 +1,8 @@
 class Solution {
 public:
-    void dfs(int i,vector<int> tempans, int target, vector<int>&a, set<vector<int>>& st){
+    void dfs(int i,vector<int> tempans, int target, vector<int>&a, vector<vector<int>>& st){
         
-        if(target == 0) st.insert(tempans);
+        if(target == 0) st.push_back(tempans);
         if(i >= a.size()) return; 
 
         if(target >= a[i] && i < a.size()){
@@ -13,13 +13,11 @@ public:
         }else return; 
     }
     vector<vector<int>> combinationSum(vector<int>& a, int target) {
-        set<vector<int>> st;
+        vector<vector<int>> st;
         int n = a.size();
         sort(a.begin(),a.end());
 
         dfs(0,vector<int>(),target,a,st);
-
-        vector<vector<int>> answer(st.begin(),st.end());
-        return answer; 
+        return st; 
     }
 };
