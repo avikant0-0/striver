@@ -1,33 +1,32 @@
 class Solution {
 public:
 
-    bool isSafe(int row,int col,auto& t){
+    bool isSafe(int row,int col,auto& t,auto& ub,auto& lb){
         for(int i = col - 1; i >= 0; i--){
             if(t[row][i] == 'Q') return false; 
         }
-        int i = row , j =  col; 
-        while(i >= 0 && j >= 0){
-            if(t[i][j] == 'Q') return false;
-            --i,--j;
-        }
-        i = row, j = col;
-        while(i < t.size() && j >= 0){
-            if(t[i][j] == 'Q') return false;
-            ++i,--j;
-        }
+        if(ub[row-col+t.size()-1]) return false;
+        if(lb[row+col]) return false;
+
         return true; 
     }
-    void dfs(int col, auto t, auto& ans){
+    void dfs(int col, auto t, auto& ans,auto ub, auto lb){
         if(col == t.size()){
             ans.push_back(t);
             return;
         }
 
         for(int row = 0 ; row < t.size(); row++){
-            if(isSafe(row,col,t)){
+            if(isSafe(row,col,t,ub,lb)){
+                ub[row-col+t.size()-1] = 1;
+                lb[row+col] = 1;
                 t[row][col] = 'Q';
-                dfs(col+1, t,ans);
+
+                dfs(col+1, t,ans,ub,lb);
+
                 t[row][col] = '.';
+                ub[row-col+t.size()-1] = 0;
+                lb[row+col] = 0;
             }
         }
     }
@@ -36,8 +35,9 @@ public:
         string temp ; 
         for(int i = 0; i < n; i++) temp += '.';
         vector<string> t(n,temp);
-
-        dfs(0,t,ans); 
+        
+        vector<bool> ub(2*n+1),lb(2*n+1);
+        dfs(0,t,ans,ub,lb); 
 
         return ans; 
     }
