@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/avikant0-0/striver/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/avikant0-0/striver/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/avikant0-0/striver/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/avikant0-0/striver/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/avikant0-0/striver/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/avikant0-0/striver/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
@@ -319,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0039-combination-sum](https://github.com/avikant0-0/striver/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/avikant0-0/striver/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/avikant0-0/striver/tree/master/0051-n-queens) |
 | [0090-subsets-ii](https://github.com/avikant0-0/striver/tree/master/0090-subsets-ii) |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
 ## Union Find
