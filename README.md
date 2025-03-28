@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/avikant0-0/striver/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/avikant0-0/striver/tree/master/0031-next-permutation) |
+| [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/avikant0-0/striver/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/avikant0-0/striver/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/avikant0-0/striver/tree/master/0042-trapping-rain-water) |
@@ -159,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0141-linked-list-cycle](https://github.com/avikant0-0/striver/tree/master/0141-linked-list-cycle) |
@@ -310,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -321,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/avikant0-0/striver/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/avikant0-0/striver/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/avikant0-0/striver/tree/master/0046-permutations) |
