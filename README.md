@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/avikant0-0/striver/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/avikant0-0/striver/tree/master/0031-next-permutation) |
+| [0033-search-in-rotated-sorted-array](https://github.com/avikant0-0/striver/tree/master/0033-search-in-rotated-sorted-array) |
 | [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/avikant0-0/striver/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/avikant0-0/striver/tree/master/0040-combination-sum-ii) |
@@ -294,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/avikant0-0/striver/tree/master/0033-search-in-rotated-sorted-array) |
 | [0222-count-complete-tree-nodes](https://github.com/avikant0-0/striver/tree/master/0222-count-complete-tree-nodes) |
 ## Bit Manipulation
 |  |
