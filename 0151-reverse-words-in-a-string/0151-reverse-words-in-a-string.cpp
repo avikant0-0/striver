@@ -1,23 +1,26 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        vector <string>  ans;
-        int n = s.size();
-        string temp = "";
-        for(int i = 0; i < n; i++){
-            
-           if(s[i] == ' ') continue;
-           string temp = "";
-           while(s[i] != ' ' && i < n) temp += s[i],++i;
-           ans.push_back(temp);
+        for(int i = 0; i < s.size(); i++){
+            if(s[i] != ' ') continue;
+            if(i + 1 < s.size() && s[i] == s[i+1]) {
+                s.erase(s.begin()+i);
+                --i;
+                continue;
+            }
+        }
+        if(s[0] == ' ') s.erase(s.begin());
+        if(s[s.size()-1] == ' ') s.erase(s.end()-1);
 
+        reverse(s.begin(),s.end());
+        int n = s.size();
+
+        for(int i = 0; i < n; i++){
+            int j = i;
+            while(j < n && s[j] != ' ') ++j;
+            reverse(s.begin()+i,s.begin()+j);
+            i = j;
         }
-        reverse(ans.begin(),ans.end());
-        string a = "";
-        for(int i = 0; i < ans.size(); i++){
-            a += ans[i];
-            if(i != ans.size() - 1) a += ' ';
-        }
-        return a; 
+        return s; 
     }
 };
