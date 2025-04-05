@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/avikant0-0/striver/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/avikant0-0/striver/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/avikant0-0/striver/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
@@ -133,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/avikant0-0/striver/tree/master/0005-longest-palindromic-substring) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/avikant0-0/striver/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/avikant0-0/striver/tree/master/0038-count-and-say) |
 | [0131-palindrome-partitioning](https://github.com/avikant0-0/striver/tree/master/0131-palindrome-partitioning) |
@@ -146,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/avikant0-0/striver/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/avikant0-0/striver/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/avikant0-0/striver/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/avikant0-0/striver/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
