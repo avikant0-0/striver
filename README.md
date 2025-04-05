@@ -135,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/avikant0-0/striver/tree/master/0005-longest-palindromic-substring) |
+| [0013-roman-to-integer](https://github.com/avikant0-0/striver/tree/master/0013-roman-to-integer) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/avikant0-0/striver/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/avikant0-0/striver/tree/master/0038-count-and-say) |
 | [0131-palindrome-partitioning](https://github.com/avikant0-0/striver/tree/master/0131-palindrome-partitioning) |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/avikant0-0/striver/tree/master/0013-roman-to-integer) |
 | [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -311,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/avikant0-0/striver/tree/master/0002-add-two-numbers) |
+| [0013-roman-to-integer](https://github.com/avikant0-0/striver/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
 ## Combinatorics
 |  |
