@@ -1,19 +1,24 @@
 class Solution {
 public:
-    int repeatedStringMatch(string a, string b) {
-        int n = ( b.length() + a.length() - 1 )/ a.length();
-        cout << n << endl;
-        string c = "";
-        for(int i = 0; i < n  ; i++) c = c + a; 
+    int f(string a,string b){
+        int n = a.size(), m = b.size();
+        if(n < m) return false;
 
-        cout << c << endl; 
-
-        for(int i =0; i < 2; i++){
-            if(c.find(b)!=string::npos){
-                return n + i ; 
-            }
-            c = c + a;
+        for(int i = 0; i <= n - m; i++){
+            if(a.substr(i,m) == b) return true;
         }
+        return false;
+    }
+    int repeatedStringMatch(string a, string b) {
+        int n = a.size(),m = b.size();
+        int r = m/n;
+        if(r*n <= m) r++;
+        string t = a;
+        for(int i = 0; i <= r; i++){
+            if(f(a,b)) return i+1;
+            a += t;
+        }
+        
         return -1; 
     }
 };
