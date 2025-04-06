@@ -11,8 +11,8 @@ public:
     }
     int repeatedStringMatch(string a, string b) {
         int n = a.size(),m = b.size();
-        int r = m/n;
-        if(r*n <= m) r++;
+        int r = m/n + (r*n <= m);
+        
         string t = a;
         for(int i = 0; i <= r; i++){
             if(f(a,b)) return i+1;
