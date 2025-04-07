@@ -1,18 +1,18 @@
 class Solution {
 public:
-    int minInsertions(string s) {
-        string t = s;
-        reverse(t.begin(),t.end());
-        int n = s.length();
-        vector <vector<int>> dp(n+1, vector<int> (n+1 , -1 )) ;
-        for(int i = 0; i< n+1;i++){
-            for(int j = 0; j <n+1;j++){
-                if(i==0||j==0) dp[i][j] = 0;
-                else if(s[i-1] == t[j-1]) dp[i][j] = 1+dp[i-1][j-1] ;
-                else dp[i][j] = max(dp[i][j-1] , dp[i-1][j]) ;
-            }
 
-        }
-        return abs(dp[n][n] - n);
+    vector<vector<int>> dp;
+    int lcs(int i,int j,string& A){
+    if(i>j) return 0;
+    if(i==j) return 1;
+    if(dp[i][j] != -1) return dp[i][j];
+
+    if(A[i] == A[j]) return dp[i][j] = 2 + lcs(i+1,j-1,A);
+    else return dp[i][j] = max(lcs(i,j-1,A),lcs(i+1,j,A));
+    }
+    int minInsertions(string A) {
+        int n = A.size();
+        dp.assign(n,vector<int>(n+1,-1));
+        return n - lcs(0,n-1,A);
     }
 };
