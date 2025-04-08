@@ -142,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0038-count-and-say](https://github.com/avikant0-0/striver/tree/master/0038-count-and-say) |
 | [0131-palindrome-partitioning](https://github.com/avikant0-0/striver/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/avikant0-0/striver/tree/master/0151-reverse-words-in-a-string) |
+| [0165-compare-version-numbers](https://github.com/avikant0-0/striver/tree/master/0165-compare-version-numbers) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
 | [0686-repeated-string-match](https://github.com/avikant0-0/striver/tree/master/0686-repeated-string-match) |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/avikant0-0/striver/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/avikant0-0/striver/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/avikant0-0/striver/tree/master/0160-intersection-of-two-linked-lists) |
+| [0165-compare-version-numbers](https://github.com/avikant0-0/striver/tree/master/0165-compare-version-numbers) |
 | [0234-palindrome-linked-list](https://github.com/avikant0-0/striver/tree/master/0234-palindrome-linked-list) |
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
