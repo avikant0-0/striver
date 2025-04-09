@@ -320,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/avikant0-0/striver/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/avikant0-0/striver/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
+| [0223-rectangle-area](https://github.com/avikant0-0/striver/tree/master/0223-rectangle-area) |
 | [0231-power-of-two](https://github.com/avikant0-0/striver/tree/master/0231-power-of-two) |
 ## Combinatorics
 |  |
@@ -399,4 +400,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/avikant0-0/striver/tree/master/0014-longest-common-prefix) |
+## Geometry
+|  |
+| ------- |
+| [0223-rectangle-area](https://github.com/avikant0-0/striver/tree/master/0223-rectangle-area) |
 <!---LeetCode Topics End-->
