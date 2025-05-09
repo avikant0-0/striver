@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/avikant0-0/striver/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/avikant0-0/striver/tree/master/1826-maximum-xor-with-an-element-from-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -319,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/avikant0-0/striver/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/avikant0-0/striver/tree/master/0231-power-of-two) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/avikant0-0/striver/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/avikant0-0/striver/tree/master/1826-maximum-xor-with-an-element-from-array) |
 ## Math
 |  |
 | ------- |
@@ -408,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/avikant0-0/striver/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/avikant0-0/striver/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/avikant0-0/striver/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1826-maximum-xor-with-an-element-from-array](https://github.com/avikant0-0/striver/tree/master/1826-maximum-xor-with-an-element-from-array) |
 ## Geometry
 |  |
 | ------- |
