@@ -12,7 +12,9 @@
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int val) {
-        TreeNode *node = root,*prev = nullptr;
+        TreeNode *dummy = new TreeNode(1e5+1);
+        dummy->left = root;
+        TreeNode *node = root,*prev = dummy;
         while(node){
           
             if(node->val<val) prev = node, node = node->right;
@@ -23,41 +25,41 @@ public:
         }
         if(!node) return root;
 
-        if(!prev){
-            if(!node->left && !node->right){
-                return nullptr;
-            }
-            if(!node->left || !node->right){
-                if(node->left) return root->left;
-                else return root->right;
-            }
-            TreeNode* to_attach = node->left;
-            TreeNode* left_most = node->right;
+        // if(!prev){
+        //     if(!node->left && !node->right){
+        //         return nullptr;
+        //     }
+        //     if(!node->left || !node->right){
+        //         if(node->left) return root->left;
+        //         else return root->right;
+        //     }
+        //     TreeNode* to_attach = node->left;
+        //     TreeNode* left_most = node->right;
 
-            while(left_most->left != nullptr) left_most = left_most->left;
+        //     while(left_most->left != nullptr) left_most = left_most->left;
 
-            left_most -> left = to_attach;
-            return root->right;
-        }
+        //     left_most -> left = to_attach;
+        //     return root->right;
+        // }
 
         
         if(!node->left && !node->right){
             if(prev->val > node->val) {
                 prev->left = nullptr;
-                return root;
+                return dummy->left;
             }else{
                 prev->right = nullptr;
-                return root;
+                return dummy->left;
             }
         }
 
         if(!node->left || !node->right){
             if(prev->val > node->val) {
                 prev->left = (node->left? node->left: node->right);
-                return root;
+                return dummy->left;
             }else{
                 prev->right = (node->left? node->left: node->right);
-                return root;
+                return dummy->left;
             }
         }
 
@@ -73,6 +75,6 @@ public:
 
         left_most -> left = to_attach;
 
-        return root;
+        return dummy->left;
     }
 };
