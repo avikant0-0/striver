@@ -25,24 +25,6 @@ public:
         }
         if(!node) return root;
 
-        // if(!prev){
-        //     if(!node->left && !node->right){
-        //         return nullptr;
-        //     }
-        //     if(!node->left || !node->right){
-        //         if(node->left) return root->left;
-        //         else return root->right;
-        //     }
-        //     TreeNode* to_attach = node->left;
-        //     TreeNode* left_most = node->right;
-
-        //     while(left_most->left != nullptr) left_most = left_most->left;
-
-        //     left_most -> left = to_attach;
-        //     return root->right;
-        // }
-
-        
         if(!node->left && !node->right){
             if(prev->val > node->val) {
                 prev->left = nullptr;
