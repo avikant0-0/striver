@@ -11,43 +11,71 @@
  */
 class Solution {
 public:
-    stack<TreeNode*> st1,st2;
-    void pushLeft(TreeNode* root,stack<TreeNode*>& st){
-        while(root){
-            st.push(root);
-            root = root->left; 
-        }
-    }
-    void pushRight(TreeNode* root,stack<TreeNode*>& st){
-        while(root){
-            st.push(root);
-            root = root->right; 
-        }
-    }
-
-    bool findTarget(TreeNode* root, int k) {
-        if(!root) return false;
-        pushLeft(root,st1);
-        pushRight(root,st2);
-
-        while(st1.size() && st2.size()){
-            int sum = st1.top()->val  + st2.top()->val;
-            if(st1.top() == st2.top()){
-                TreeNode* top = st2.top();
-                st2.pop();
-                pushRight(top->left,st2);
-                continue;
+    class B_IT{
+        private:
+            stack<TreeNode*> left;
+            stack<TreeNode*> right;
+        public:
+            B_IT(TreeNode* root){
+                TreeNode* r = root;
+                while(root) {
+                    left.push(root);
+                    root = root->left;
+                }
+                while(r){
+                    right.push(r);
+                    r = r->right;
+                }
             }
-            if(sum > k){
-                TreeNode* top = st2.top();
-                st2.pop();
-                pushRight(top->left,st2);
-            }else if(sum < k){
-                TreeNode* top = st1.top();
-                st1.pop();
-                pushLeft(top->right,st1);
-            }else return true; 
+            int next(){
+                if(left.empty()){
+                    return 1e5;
+                }
+                TreeNode* node = left.top();
+                left.pop();
+                int toreturn = node->val;
+                if(node->right){
+                    node = node->right;
+                    while(node){
+                        left.push(node);
+                        node = node->left;
+                    }
+                }
+                return toreturn;
+            }
+            int before(){
+                if(right.empty()){
+                    return 1e5;
+                }
+                TreeNode* node = right.top();
+                right.pop();
+                int toreturn = node->val;
+                if(node->left){
+                    node = node->left;
+                    while(node){
+                        right.push(node);
+                        node = node->right;
+                    }
+                }
+                return toreturn;
+            }
+    };
+    bool findTarget(TreeNode* root, int k) {
+        
+        B_IT T(root);
+        int l = T.next(),r = T.before();
+
+        while(true){
+            if(l==r){
+                l = T.next();
+            }
+            if(l == 1e5 || r == 1e5){
+                break;
+            }
+            if(l+r == k) return true;
+            else if(l+r<k) l = T.next();
+            else r = T.before();
         }
-        return false;
+        return 0;
     }
 };
