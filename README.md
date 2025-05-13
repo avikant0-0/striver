@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/avikant0-0/striver/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/avikant0-0/striver/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/avikant0-0/striver/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/avikant0-0/striver/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/avikant0-0/striver/tree/master/0213-house-robber-ii) |
@@ -328,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/avikant0-0/striver/tree/master/0090-subsets-ii) |
+| [0136-single-number](https://github.com/avikant0-0/striver/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/avikant0-0/striver/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/avikant0-0/striver/tree/master/0231-power-of-two) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/avikant0-0/striver/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
