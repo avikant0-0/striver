@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/avikant0-0/striver/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/avikant0-0/striver/tree/master/0213-house-robber-ii) |
+| [0229-majority-element-ii](https://github.com/avikant0-0/striver/tree/master/0229-majority-element-ii) |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/avikant0-0/striver/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/avikant0-0/striver/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
@@ -198,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0160-intersection-of-two-linked-lists](https://github.com/avikant0-0/striver/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/avikant0-0/striver/tree/master/0208-implement-trie-prefix-tree) |
+| [0229-majority-element-ii](https://github.com/avikant0-0/striver/tree/master/0229-majority-element-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/avikant0-0/striver/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -217,12 +219,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/avikant0-0/striver/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/avikant0-0/striver/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/avikant0-0/striver/tree/master/0229-majority-element-ii) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/avikant0-0/striver/tree/master/0229-majority-element-ii) |
 ## Linked List
 |  |
 | ------- |
