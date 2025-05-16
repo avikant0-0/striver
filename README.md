@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/avikant0-0/striver/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/avikant0-0/striver/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/avikant0-0/striver/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/avikant0-0/striver/tree/master/0075-sort-colors) |
 | [0090-subsets-ii](https://github.com/avikant0-0/striver/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/avikant0-0/striver/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/avikant0-0/striver/tree/master/0013-roman-to-integer) |
 | [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/avikant0-0/striver/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/avikant0-0/striver/tree/master/0128-longest-consecutive-sequence) |
@@ -357,6 +359,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/avikant0-0/striver/tree/master/0073-set-matrix-zeroes) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Greedy
