@@ -1,70 +1,68 @@
 class Solution {
 public:
-    class Trie {
-        struct Node {
-            Node* child[2] = {nullptr, nullptr};
-        };
-
-        Node* root = new Node();
-
-    public:
-        void insert(int num) {
-            Node* node = root;
-            for (int i = 31; i >= 0; --i) {
-                int bit = (num >> i) & 1;
-                if (!node->child[bit]) {
-                    node->child[bit] = new Node();
-                }
-                node = node->child[bit];
+    class Trie{
+        private:
+            vector<Trie*> arr;
+        public:
+            Trie(){
+                arr.assign(2,nullptr);
             }
-        }
 
-        int maxXOR(int x) const {
-            int ans = 0;
-            Node* node = root;
-            for (int i = 31; i >= 0; --i) {
-                int bit = (x >> i) & 1;
-                int opposite = 1 - bit;
-                if (node->child[opposite]) {
-                    ans |= (1 << i);
-                    node = node->child[opposite];
-                } else {
-                    node = node->child[bit];
+            void insert(int num){
+                Trie* node = this;
+                for(int i = 31; i >= 0; i--){
+                    int bit = (1&(num>>i));
+                    if(node->arr[bit] == nullptr){
+                        node->arr[bit] = new Trie();
+                    }
+                    node = node->arr[bit];
                 }
             }
-            return ans;
-        }
+
+            int maxXOR(int x){
+                int ans = 0;
+                Trie* node = this;
+                for(int i = 31; i >= 0; i--){
+                    int bit = ((x>>i)&1);
+                    int want  = !bit;
+
+                    if(node->arr[want]!=nullptr){
+                        ans |= (1<<i);
+                        node = node->arr[want];
+                    }
+                    
+                    else node = node->arr[bit];
+                }
+                return ans;
+            }
     };
+    vector<int> maximizeXor(vector<int>& a, vector<vector<int>>& q) {
+        sort(a.begin(),a.end());
+        int m = q.size(), n = a.size();
 
-    vector<int> maximizeXor(vector<int>& nums, vector<vector<int>>& queries) {
-        // Sort nums for efficient insertion
-        sort(nums.begin(), nums.end());
+        vector<tuple<int,int,int>> q1;
+        for(int i = 0; i < m; i++) q1.push_back({q[i][0],q[i][1],i});
 
-        int m = queries.size(), n = nums.size();
-        vector<int> answer(m, -1);
-
-        // Prepare queries with original indices
-        vector<tuple<int, int, int>> q1;
-        for (int i = 0; i < m; ++i)
-            q1.emplace_back(queries[i][0], queries[i][1], i);
-
-        // Sort queries by their max limits
-        sort(q1.begin(), q1.end(), [](const auto& a, const auto& b) {
-            return get<1>(a) < get<1>(b);
+        sort(q1.begin(),q1.end(),[&](auto& a,auto& b){
+            return get<1>(a) < get<1>(b) ;
         });
 
-        // Process the queries efficiently
-        int i = 0;
-        Trie trie;
-        for (const auto& [x, mi, idx] : q1) {
-            // Insert all eligible numbers before this query
-            while (i < n && nums[i] <= mi) {
-                trie.insert(nums[i]);
-                ++i;
-            }
-            // If there is something in the Trie, compute the max XOR
-            if (i > 0) {
-                answer[idx] = trie.maxXOR(x);
+        int i = 0, j = 0;
+        Trie* T = new Trie();
+        vector<int> answer(m,-1);
+
+        while(j < m){
+            if(i < n && a[i] <= get<1> (q1[j])) T->insert(a[i]),++i;
+            else{
+                if(i == 0) {
+                    ++j;
+                    continue;
+                } 
+                int ans = -1;
+                int x = get<0> (q1[j]);
+                ans = max(ans,T->maxXOR(x));
+                answer[get<2> (q1[j])] = ans;
+                ++j;
             }
         }
 
