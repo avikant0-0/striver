@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/avikant0-0/striver/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/avikant0-0/striver/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3227-find-missing-and-repeated-values](https://github.com/avikant0-0/striver/tree/master/3227-find-missing-and-repeated-values) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -206,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [3227-find-missing-and-repeated-values](https://github.com/avikant0-0/striver/tree/master/3227-find-missing-and-repeated-values) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -363,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
 | [0223-rectangle-area](https://github.com/avikant0-0/striver/tree/master/0223-rectangle-area) |
 | [0231-power-of-two](https://github.com/avikant0-0/striver/tree/master/0231-power-of-two) |
+| [3227-find-missing-and-repeated-values](https://github.com/avikant0-0/striver/tree/master/3227-find-missing-and-repeated-values) |
 ## Combinatorics
 |  |
 | ------- |
@@ -376,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/avikant0-0/striver/tree/master/0073-set-matrix-zeroes) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
+| [3227-find-missing-and-repeated-values](https://github.com/avikant0-0/striver/tree/master/3227-find-missing-and-repeated-values) |
 ## Greedy
 |  |
 | ------- |
