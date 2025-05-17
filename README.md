@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/avikant0-0/striver/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/avikant0-0/striver/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/avikant0-0/striver/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/avikant0-0/striver/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -175,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/avikant0-0/striver/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/avikant0-0/striver/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/avikant0-0/striver/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/avikant0-0/striver/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/avikant0-0/striver/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/avikant0-0/striver/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/avikant0-0/striver/tree/master/0160-intersection-of-two-linked-lists) |
@@ -218,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/avikant0-0/striver/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/avikant0-0/striver/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/avikant0-0/striver/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/avikant0-0/striver/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/avikant0-0/striver/tree/master/0229-majority-element-ii) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
