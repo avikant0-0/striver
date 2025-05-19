@@ -1,33 +1,33 @@
+#include<bits/stdc++.h>
 class Solution {
 public:
-    int b_s(int l,int r,auto& a,int target){
-        --l,++r;
-        while(r-l>1){
-            int mid = ( r + l ) / 2;
-            if(a[mid] < target) l = mid;
-            else r = mid;
-        }
-
-        if(r == a.size()) return -1;
-        if(a[r] == target) return r;
-        else return -1;
-    }
-    int search(vector<int>& a, int target) {
+    int search(vector<int>& a, int t) {
         int n = a.size();
-        int l = -1, r = n;
-        int pv = -1;
-        while(r - l > 1){
-            int mid = ( r+l )/ 2;
+        int l = -1,r = n;
+        while( r - l > 1 ){
+            int mid = (r+l)/2;
             if(a[mid]>a[n-1]) l = mid;
             else r = mid;
         }
-        pv = r;
-        
-        if(pv == 0){
-            return b_s(0,n-1,a,target);
+        // r = 1;
+        cout << r << endl;
+
+        if(r <= n - 1){
+            if(r - 1 >= 0 && t>=a[0]&&t<=a[r-1]){
+                int ind = lower_bound(a.begin(),a.begin()+r,t)-a.begin(); 
+                if (ind < n &&  a[ind] == t )  return ind;
+                else return -1;
+            }else{
+                int ind = lower_bound(a.begin()+r,a.end(),t)-a.begin();
+                if( ind < n && a[ind] == t) return ind;
+                else return -1;
+            }
+        }else{
+            int ind = lower_bound(a.begin(),a.begin()+r,t)-a.begin(); 
+            if ( ind < n && a[ind] == t )  return ind;
+            else return -1;
         }
-        if( target >= a[0] && target <= a[pv-1] ){
-            return b_s(0,pv-1,a,target);
-        }else return b_s(pv,n-1,a,target);
-    }
+
+        return -1;
+    }   
 };
