@@ -9,19 +9,17 @@ public:
             if(a[mid]>a[n-1]) l = mid;
             else r = mid;
         }
-        // r = 1;
-        cout << r << endl;
 
         if(r <= n - 1){
+            int ind;
             if(r - 1 >= 0 && t>=a[0]&&t<=a[r-1]){
-                int ind = lower_bound(a.begin(),a.begin()+r,t)-a.begin(); 
-                if (ind < n &&  a[ind] == t )  return ind;
-                else return -1;
+                ind = lower_bound(a.begin(),a.begin()+r,t)-a.begin(); 
+                
             }else{
-                int ind = lower_bound(a.begin()+r,a.end(),t)-a.begin();
-                if( ind < n && a[ind] == t) return ind;
-                else return -1;
+                ind = lower_bound(a.begin()+r,a.end(),t)-a.begin();
             }
+            if (ind < n &&  a[ind] == t )  return ind;
+            else return -1;
         }else{
             int ind = lower_bound(a.begin(),a.begin()+r,t)-a.begin(); 
             if ( ind < n && a[ind] == t )  return ind;
