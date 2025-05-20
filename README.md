@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/avikant0-0/striver/tree/master/0518-coin-change-ii) |
+| [0907-koko-eating-bananas](https://github.com/avikant0-0/striver/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/avikant0-0/striver/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -352,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/avikant0-0/striver/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/avikant0-0/striver/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0222-count-complete-tree-nodes](https://github.com/avikant0-0/striver/tree/master/0222-count-complete-tree-nodes) |
+| [0907-koko-eating-bananas](https://github.com/avikant0-0/striver/tree/master/0907-koko-eating-bananas) |
 ## Bit Manipulation
 |  |
 | ------- |
