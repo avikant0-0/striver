@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
 | [0907-koko-eating-bananas](https://github.com/avikant0-0/striver/tree/master/0907-koko-eating-bananas) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/avikant0-0/striver/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/avikant0-0/striver/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/avikant0-0/striver/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -369,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0240-search-a-2d-matrix-ii](https://github.com/avikant0-0/striver/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
 | [0907-koko-eating-bananas](https://github.com/avikant0-0/striver/tree/master/0907-koko-eating-bananas) |
+| [1046-max-consecutive-ones-iii](https://github.com/avikant0-0/striver/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/avikant0-0/striver/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/avikant0-0/striver/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1646-kth-missing-positive-number](https://github.com/avikant0-0/striver/tree/master/1646-kth-missing-positive-number) |
@@ -501,8 +503,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/avikant0-0/striver/tree/master/1046-max-consecutive-ones-iii) |
 ## Counting Sort
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
+## Sliding Window
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/avikant0-0/striver/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
