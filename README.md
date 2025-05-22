@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/avikant0-0/striver/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1646-kth-missing-positive-number](https://github.com/avikant0-0/striver/tree/master/1646-kth-missing-positive-number) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/avikant0-0/striver/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [2047-find-a-peak-element-ii](https://github.com/avikant0-0/striver/tree/master/2047-find-a-peak-element-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/avikant0-0/striver/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2737-row-with-maximum-ones](https://github.com/avikant0-0/striver/tree/master/2737-row-with-maximum-ones) |
 | [3227-find-missing-and-repeated-values](https://github.com/avikant0-0/striver/tree/master/3227-find-missing-and-repeated-values) |
@@ -369,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/avikant0-0/striver/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/avikant0-0/striver/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1646-kth-missing-positive-number](https://github.com/avikant0-0/striver/tree/master/1646-kth-missing-positive-number) |
+| [2047-find-a-peak-element-ii](https://github.com/avikant0-0/striver/tree/master/2047-find-a-peak-element-ii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -404,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0240-search-a-2d-matrix-ii](https://github.com/avikant0-0/striver/tree/master/0240-search-a-2d-matrix-ii) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
+| [2047-find-a-peak-element-ii](https://github.com/avikant0-0/striver/tree/master/2047-find-a-peak-element-ii) |
 | [2737-row-with-maximum-ones](https://github.com/avikant0-0/striver/tree/master/2737-row-with-maximum-ones) |
 | [3227-find-missing-and-repeated-values](https://github.com/avikant0-0/striver/tree/master/3227-find-missing-and-repeated-values) |
 ## Greedy
