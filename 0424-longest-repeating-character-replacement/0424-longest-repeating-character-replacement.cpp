@@ -17,7 +17,7 @@ public:
             // cout << mx <<" " << damage << " " << len << endl;
             int mxfreq = hash[mx-'A'];
 
-            while(len - mxfreq > k){
+            if(len - mxfreq > k){
                 --len;
                 hash[s[i]-'A']--;
                 ++i;
