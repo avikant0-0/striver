@@ -21,8 +21,7 @@ public:
                 }
                 else {
                     ans = max(ans,j-i);
-                    if(i == j) ++i,++j;
-                    else{
+                    while(i <= j && zeros >= k) {
                         if(a[i] == 0) --zeros;
                         ++i;
                     }
