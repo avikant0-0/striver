@@ -4,19 +4,25 @@ public:
         int n = a.size();
         int i = 0, j = 0;
         int ans = 0;
-        map<int,int> mp;
+        vector<int> type(n);
+        int sz = 0;
 
         while(j < n){
-            mp[a[j]]++;
+            if(type[a[j]] == 0) {
+                ++sz;
+            }
 
-            if(mp.size() <= 2){
+            type[a[j]]++;
+
+
+            if(sz <= 2){
                 ans = max(ans,j-i+1);
                 ++j;
             }
             else{
-                while(mp.size() > 2){
-                    mp[a[i]]--;
-                    if(mp[a[i]] == 0) mp.erase(a[i]);
+                while(sz > 2){
+                    type[a[i]]--;
+                    if(type[a[i]] == 0)sz--;
                     ++i;
                 }
                 ans = max(ans,j-i+1);
