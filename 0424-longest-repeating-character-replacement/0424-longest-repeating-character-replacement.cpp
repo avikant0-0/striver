@@ -8,25 +8,22 @@ public:
 
         while( j < n ){
             hash[s[j]-'A']++;
-            if(mx == '-') mx = s[j];
-            if(hash[s[j]-'A'] > hash[mx-'A']){
+            if(mx == '-' || hash[s[j]-'A'] > hash[mx-'A']){
                 mx = s[j];
             }
             int len = j - i + 1;
             int damage = len - hash[mx-'A'];        
 
             // cout << mx <<" " << damage << " " << len << endl;
+            int mxfreq = hash[mx-'A'];
 
-            if(damage <= k){
-                ans = max(ans,len);
-                ++j;
-            }else{
+            while(len - mxfreq > k){
+                --len;
                 hash[s[i]-'A']--;
-                hash[s[j]-'A']--;
-                int ind = max_element(hash.begin(),hash.end()) - hash.begin();
-                mx = ('A' + ind);
                 ++i;
             }
+            ans = max(ans,len);
+            ++j;
         }
 
         return ans;
