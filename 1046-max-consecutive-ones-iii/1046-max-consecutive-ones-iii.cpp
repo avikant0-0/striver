@@ -11,21 +11,26 @@ public:
                 if(zeros <= k) ans = max(ans,j-i);
                 break;
             }
-
-            if(a[j] == 1){
+            
+            if(a[j] == 1 && zeros <= k){
+                ans = max(ans,j-i+1);
                 ++j;
-            }else{
-                if(zeros < k){
-                    ++j;
-                    zeros++;
-                }
-                else {
-                    ans = max(ans,j-i);
-                    while(i <= j && zeros >= k) {
-                        if(a[i] == 0) --zeros;
-                        ++i;
-                    }
-                }
+            }
+            else if(a[j] == 0 && zeros < k){
+                ++zeros;
+                ans = max(ans,j-i+1);
+                ++j;
+            }
+            else if(a[j] == 0 && zeros >= k){
+                if(a[i] == 0) --zeros;
+                ++i;
+                ++zeros;
+                ++j;
+            }   
+            else if(a[j] == 1 && zeros > k){
+                if(a[i] == 0) --zeros;
+                ++i;
+                ++j;
             }
         }
         return ans;
