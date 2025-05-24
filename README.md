@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
 | [0907-koko-eating-bananas](https://github.com/avikant0-0/striver/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/avikant0-0/striver/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/avikant0-0/striver/tree/master/0966-binary-subarrays-with-sum) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/avikant0-0/striver/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/avikant0-0/striver/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -226,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0940-fruit-into-baskets](https://github.com/avikant0-0/striver/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/avikant0-0/striver/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [3227-find-missing-and-repeated-values](https://github.com/avikant0-0/striver/tree/master/3227-find-missing-and-repeated-values) |
 ## Divide and Conquer
@@ -509,6 +511,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
+| [0966-binary-subarrays-with-sum](https://github.com/avikant0-0/striver/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/avikant0-0/striver/tree/master/1046-max-consecutive-ones-iii) |
 ## Counting Sort
 |  |
@@ -520,5 +523,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/avikant0-0/striver/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/avikant0-0/striver/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/avikant0-0/striver/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/avikant0-0/striver/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/avikant0-0/striver/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
