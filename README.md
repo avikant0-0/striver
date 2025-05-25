@@ -408,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/avikant0-0/striver/tree/master/0002-add-two-numbers) |
 | [0013-roman-to-integer](https://github.com/avikant0-0/striver/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/avikant0-0/striver/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/avikant0-0/striver/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/avikant0-0/striver/tree/master/0069-sqrtx) |
 | [0223-rectangle-area](https://github.com/avikant0-0/striver/tree/master/0223-rectangle-area) |
@@ -472,6 +473,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/avikant0-0/striver/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/avikant0-0/striver/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/avikant0-0/striver/tree/master/0025-reverse-nodes-in-k-group) |
+| [0050-powx-n](https://github.com/avikant0-0/striver/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/avikant0-0/striver/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/avikant0-0/striver/tree/master/0234-palindrome-linked-list) |
 ## Monotonic Stack
