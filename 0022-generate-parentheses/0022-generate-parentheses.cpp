@@ -8,20 +8,14 @@ public:
             return;
         }
 
-        if(open == close){
-            temp.push_back('(');
-            f(open+1,close,n,temp,ans);
-            temp.pop_back();
-        }
-        else{
-            temp.push_back('(');
-            f(open+1,close,n,temp,ans);
-            temp.pop_back();
+        temp.push_back('(');
+        f(open+1,close,n,temp,ans);
+        temp.pop_back();
 
-            temp.push_back(')');
-            f(open,close+1,n,temp,ans);
-            temp.pop_back();
-        }
+        temp.push_back(')');
+        f(open,close+1,n,temp,ans);
+        temp.pop_back();
+
     }
     vector<string> generateParenthesis(int n) {
         vector<string> ans;
