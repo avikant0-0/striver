@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/avikant0-0/striver/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/avikant0-0/striver/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/avikant0-0/striver/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/avikant0-0/striver/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
@@ -175,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0008-string-to-integer-atoi](https://github.com/avikant0-0/striver/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/avikant0-0/striver/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/avikant0-0/striver/tree/master/0014-longest-common-prefix) |
+| [0022-generate-parentheses](https://github.com/avikant0-0/striver/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/avikant0-0/striver/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/avikant0-0/striver/tree/master/0038-count-and-say) |
 | [0076-minimum-window-substring](https://github.com/avikant0-0/striver/tree/master/0076-minimum-window-substring) |
@@ -447,6 +449,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/avikant0-0/striver/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/avikant0-0/striver/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/avikant0-0/striver/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/avikant0-0/striver/tree/master/0040-combination-sum-ii) |
