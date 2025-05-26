@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/avikant0-0/striver/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/avikant0-0/striver/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/avikant0-0/striver/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/avikant0-0/striver/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/avikant0-0/striver/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/avikant0-0/striver/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/avikant0-0/striver/tree/master/0090-subsets-ii) |
@@ -182,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/avikant0-0/striver/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/avikant0-0/striver/tree/master/0038-count-and-say) |
 | [0076-minimum-window-substring](https://github.com/avikant0-0/striver/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/avikant0-0/striver/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/avikant0-0/striver/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/avikant0-0/striver/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/avikant0-0/striver/tree/master/0165-compare-version-numbers) |
@@ -364,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/avikant0-0/striver/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/avikant0-0/striver/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/avikant0-0/striver/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/avikant0-0/striver/tree/master/0099-recover-binary-search-tree) |
@@ -437,6 +440,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/avikant0-0/striver/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/avikant0-0/striver/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/avikant0-0/striver/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/avikant0-0/striver/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/avikant0-0/striver/tree/master/0240-search-a-2d-matrix-ii) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -461,6 +465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/avikant0-0/striver/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/avikant0-0/striver/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/avikant0-0/striver/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/avikant0-0/striver/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/avikant0-0/striver/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/avikant0-0/striver/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
