@@ -1,31 +1,29 @@
 class Solution {
 public:
-    void dfs(const vector<int>& nums, vector<vector<int>>& st, int i, vector<int> res){
-        if(i == nums.size()){
-            st.push_back(res);
+    void f(int ind,auto& a,auto& temp,auto& ans){
+
+        if(ind == a.size()){
+            ans.push_back(temp);
             return;
         }
 
-        int ind = upper_bound(nums.begin(),nums.end(),nums[i])-nums.begin();
-
-        for(int j = i; j < ind; j++){
-            for(int k = 0; k < ind - j ; k++){
-                res.push_back(nums[i]);
+        for(int i = ind; i <= a.size(); i++){
+            if(i == a.size()){
+                f(i,a,temp,ans);
             }
-            dfs(nums,st,ind,res);
-            for(int k = 0; k < ind - j ; k++){
-                res.pop_back(); 
+            else if(i == ind || (a[i] != a[i-1])){
+                temp.push_back(a[i]);
+                f(i+1,a,temp,ans);
+                temp.pop_back();
             }
+            
         }
-
-        dfs(nums,st,ind,res); 
-
-    }
-    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-        vector<vector<int>> st; 
-        sort(nums.begin(),nums.end());
-        
-        dfs(nums,st,0,vector<int>());
-        return st;  
+    }   
+    vector<vector<int>> subsetsWithDup(vector<int>& a) {
+        vector<vector<int>> ans;
+        vector<int> temp;
+        sort(a.begin(),a.end());
+        f(0,a,temp,ans);
+        return ans;
     }
 };
