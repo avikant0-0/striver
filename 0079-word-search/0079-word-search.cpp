@@ -26,9 +26,10 @@ public:
         return false;
     }
     bool exist(vector<vector<char>>& a, string w) {
+        visited.assign(a.size(),vector<int>(a[0].size(),0));
+
         for(int i = 0; i < a.size(); i++){
             for(int j = 0; j < a[0].size(); j++){
-                visited.assign(a.size(),vector<int>(a[0].size(),0));
 
                 if( f(i,j,0,a,w) ){
                     return true;
