@@ -1,38 +1,34 @@
 class Solution {
 public:
 
-    bool isP(const auto& s){
-        int i = 0, j = s.size() - 1;
-        while(i < j){
-            if(s[i] == s[j]){
-                ++i;
-                --j;
-                continue;
-            }
-            else return false;
+    bool isP(auto& str){
+        int i = 0, j = str.size() - 1;
+        while( i < j ){
+            if(str[i] != str[j]) return false;
+            ++i;--j;
         }
-
-        return true; 
+        return true;
     }
-
-    void dfs(int ind,auto& s,auto& r,auto t){
+    void f(int ind,auto& s,auto temp,auto& ans){
         int n = s.size();
         if(ind == n){
-            r.push_back(t);
+            ans.push_back(temp);
             return;
         }
 
-        for(int i = ind; i < n; i++){
-            if(isP(s.substr(ind,i -ind+1))){
-                t.push_back(s.substr(ind,i-ind+1));
-                dfs(i+1,s,r,t);
-                t.pop_back();
+        for(int i = ind; i < n;i++){
+            string sub = s.substr(ind,i-ind+1);
+            if(isP(sub)){
+                temp.push_back(sub);
+                f(i+1,s,temp,ans);
+                temp.pop_back();
             }
         }
     }
     vector<vector<string>> partition(string s) {
-        vector<vector<string>> r;
-        dfs(0,s,r,vector<string> ());
-        return r;
+        vector<vector<string>> ans;
+        vector<string> temp;
+        f(0,s,temp,ans);
+        return ans;
     }
 };
