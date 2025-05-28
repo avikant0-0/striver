@@ -1,26 +1,33 @@
 class Solution {
 public:
+    void skipspace(int& i,auto& s){
+        while(i <= s.size() ){
+            if(i == s.size()) break;
+            else if(s[i] == ' ') ++i;
+            else break;
+        }
+    }
+    void addreverseword(int& i,auto& s,auto& ans){ 
+        int ini = i;
+
+        while(i < s.size() && s[i] != ' '){
+            ++i;
+        }
+        for(int j = i - 1; j >= ini; j--){
+            ans.push_back(s[j]);
+        }
+        ans.push_back(' ');
+
+    }
     string reverseWords(string s) {
-        for(int i = 0; i < s.size(); i++){
-            if(s[i] != ' ') continue;
-            if(i + 1 < s.size() && s[i] == s[i+1]) {
-                s.erase(s.begin()+i);
-                --i;
-                continue;
-            }
+        int i = 0;
+        string ans;
+        while(i < s.size()){
+            skipspace(i,s);
+            if(i < s.size()) addreverseword(i,s,ans);
         }
-        if(s[0] == ' ') s.erase(s.begin());
-        if(s[s.size()-1] == ' ') s.erase(s.end()-1);
-
-        reverse(s.begin(),s.end());
-        int n = s.size();
-
-        for(int i = 0; i < n; i++){
-            int j = i;
-            while(j < n && s[j] != ' ') ++j;
-            reverse(s.begin()+i,s.begin()+j);
-            i = j;
-        }
-        return s; 
+        ans.pop_back();
+        reverse(ans.begin(),ans.end());
+        return ans;
     }
 };
