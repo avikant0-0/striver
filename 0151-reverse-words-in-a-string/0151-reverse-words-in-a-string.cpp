@@ -1,11 +1,7 @@
 class Solution {
 public:
     void skipspace(int& i,auto& s){
-        while(i <= s.size() ){
-            if(i == s.size()) break;
-            else if(s[i] == ' ') ++i;
-            else break;
-        }
+        while(i < s.size() && s[i] == ' ') ++i;
     }
     void addreverseword(int& i,auto& s,auto& ans){ 
         int ini = i;
