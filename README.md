@@ -193,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/avikant0-0/striver/tree/master/0424-longest-repeating-character-replacement) |
 | [0686-repeated-string-match](https://github.com/avikant0-0/striver/tree/master/0686-repeated-string-match) |
+| [0812-rotate-string](https://github.com/avikant0-0/striver/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/avikant0-0/striver/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/avikant0-0/striver/tree/master/1078-remove-outermost-parentheses) |
 | [1250-longest-common-subsequence](https://github.com/avikant0-0/striver/tree/master/1250-longest-common-subsequence) |
@@ -492,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/avikant0-0/striver/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/avikant0-0/striver/tree/master/0686-repeated-string-match) |
+| [0812-rotate-string](https://github.com/avikant0-0/striver/tree/master/0812-rotate-string) |
 ## Recursion
 |  |
 | ------- |
