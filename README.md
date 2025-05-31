@@ -150,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/avikant0-0/striver/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/avikant0-0/striver/tree/master/0518-coin-change-ii) |
+| [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
 | [1250-longest-common-subsequence](https://github.com/avikant0-0/striver/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/avikant0-0/striver/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -193,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/avikant0-0/striver/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/avikant0-0/striver/tree/master/0451-sort-characters-by-frequency) |
+| [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
 | [0686-repeated-string-match](https://github.com/avikant0-0/striver/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/avikant0-0/striver/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/avikant0-0/striver/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -373,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/avikant0-0/striver/tree/master/0173-binary-search-tree-iterator) |
 | [0234-palindrome-linked-list](https://github.com/avikant0-0/striver/tree/master/0234-palindrome-linked-list) |
+| [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/avikant0-0/striver/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/avikant0-0/striver/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/avikant0-0/striver/tree/master/1078-remove-outermost-parentheses) |
@@ -467,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
+| [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/avikant0-0/striver/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/avikant0-0/striver/tree/master/2032-largest-odd-number-in-string) |
 ## Backtracking
