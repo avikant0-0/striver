@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/avikant0-0/striver/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/avikant0-0/striver/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/avikant0-0/striver/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/avikant0-0/striver/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/avikant0-0/striver/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/avikant0-0/striver/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/avikant0-0/striver/tree/master/0051-n-queens) |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/avikant0-0/striver/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/avikant0-0/striver/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/avikant0-0/striver/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/avikant0-0/striver/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/avikant0-0/striver/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/avikant0-0/striver/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
@@ -470,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/avikant0-0/striver/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/avikant0-0/striver/tree/master/0055-jump-game) |
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
