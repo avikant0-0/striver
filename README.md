@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0119-pascals-triangle-ii](https://github.com/avikant0-0/striver/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/avikant0-0/striver/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/avikant0-0/striver/tree/master/0128-longest-consecutive-sequence) |
+| [0135-candy](https://github.com/avikant0-0/striver/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/avikant0-0/striver/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/avikant0-0/striver/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
@@ -474,6 +475,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0045-jump-game-ii](https://github.com/avikant0-0/striver/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/avikant0-0/striver/tree/master/0055-jump-game) |
+| [0135-candy](https://github.com/avikant0-0/striver/tree/master/0135-candy) |
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
