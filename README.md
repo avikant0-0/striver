@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/avikant0-0/striver/tree/master/0518-coin-change-ii) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
+| [0890-lemonade-change](https://github.com/avikant0-0/striver/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/avikant0-0/striver/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/avikant0-0/striver/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/avikant0-0/striver/tree/master/0948-sort-an-array) |
@@ -471,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
 | [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
+| [0890-lemonade-change](https://github.com/avikant0-0/striver/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/avikant0-0/striver/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2032-largest-odd-number-in-string](https://github.com/avikant0-0/striver/tree/master/2032-largest-odd-number-in-string) |
 ## Backtracking
