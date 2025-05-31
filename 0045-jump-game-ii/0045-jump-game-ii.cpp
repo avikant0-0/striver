@@ -2,18 +2,16 @@ class Solution {
 public:
     int jump(vector<int>& a) {
         int n = a.size();
-        if(n == 1) return 0;
-        set<pair<int,int>> st;
-        for(int i = 0; i < n; i++){
-            if(st.empty()){
-                st.insert({min(i+a[i],n-1),1});
-                continue;
+        int l = 0, r = 0, jumps = 0;
+        while(r < n - 1){
+            int mx = 0;
+            for(int i = l; i <= r; i++){
+                mx = max(mx,i+a[i]);
             }
-            if(a[i] + i <= st.rbegin()->first) continue;
-            
-            int t = st.lower_bound({i,0})->second;
-            st.insert({min(i+a[i],n-1),t+1});
+            l = r + 1;
+            r = mx;
+            jumps += 1;
         }
-        return st.lower_bound({n-1,0})->second;
+        return jumps;
     }
 };
