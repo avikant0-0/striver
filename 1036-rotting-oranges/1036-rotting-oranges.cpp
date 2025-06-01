@@ -1,56 +1,48 @@
 class Solution {
 public:
-
-   
-    int orangesRotting(vector<vector<int>>& grid) {
-        int ans = 0;
-        int n = grid.size();
-        int m = grid[0].size();
-        queue<pair<pair<int,int>,int>> q;
-
+    int orangesRotting(vector<vector<int>>& a) {
+        int n = a.size(), m = a[0].size();
         vector<vector<int>> visited(n,vector<int>(m,0));
 
-        for(int  i =0; i < n; i++) {
+        queue<vector<int>> q;
+        int cnt = 0;
+        for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
-                if(grid[i][j] == 2) {
-                    q.push(make_pair(make_pair(i,j),0));
-                    visited[i][j] = 1; 
+                if(a[i][j] == 2){
+                    q.push({i,j,0});
+                    visited[i][j] = 1;
                 }
             }
         }
 
+        int ans = 0;
         while(!q.empty()){
-            pair<pair<int,int>,int> front = q.front();
+            vector<int> top = q.front();
             q.pop();
 
-            vector<int> dx = {0,0,-1,1};
-            vector<int> dy = {1,-1,0,0};
+            int dx[] = {0,0,-1,1};
+            int dy[] = {1,-1,0,0};
+            ans = max(ans,top[2]);
 
-            int si = front.first.first;
-            int sj = front.first.second;
-            int st = front.second;
+            for(int i = 0; i < 4; i++){
+                int ni = top[0] + dx[i];
+                int nj = top[1] + dy[i];
 
-            ans = max(ans,st); 
-
-            for(int i1 = 0; i1 < 4; i1++){
-                int ni = si + dx[i1];
-                int nj = sj + dy[i1];
-                if(ni >= 0 && nj >= 0 && ni < grid.size() && nj < grid[0].size() && grid[ni][nj] == 1 && !visited[ni][nj]){
-                    visited[ni][nj] = 1; 
-                    grid[ni][nj] = 2;
-                    q.push(make_pair(make_pair(ni,nj),st+1));
+                if(ni >= 0 && ni < n && nj >= 0 && nj < m && !visited[ni][nj] && a[ni][nj] != 0){
+                    visited[ni][nj] = 1;
+                    q.push({ni,nj,top[2]+1});
+                    a[ni][nj] = 2;
                 }
             }
         }
 
-        for(int  i =0; i < n; i++) {
+        for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
-                if(grid[i][j] == 1) {
+                if(a[i][j] == 1){
                     return -1;
                 }
             }
         }
-
         return ans;
     }
 };
