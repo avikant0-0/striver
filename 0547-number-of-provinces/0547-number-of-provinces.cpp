@@ -1,12 +1,19 @@
 class Solution {
 public:
     vector<int> visited;
-    void dfs(int k,auto& a){
-        if(visited[k]) return;
-        visited[k] = 1;
-        for(int i = 0; i < a.size(); i++){
-            if(a[k][i] == 1 && k != i){
-                dfs(i,a);
+    void bfs(int k,auto& a){
+        queue<int> q;
+        q.push(k);
+
+        while(!q.empty()){
+            int top = q.front();
+            q.pop();
+            visited[top] = 1;
+
+            for(int i = 0; i < a.size(); i++){
+                if(a[top][i] == 1 && !visited[i]){
+                    q.push(i);
+                }
             }
         }
     }
@@ -15,7 +22,7 @@ public:
         visited.assign(n,0);
         for(int i =0 ; i < n; i++){
             if(!visited[i]){
-                dfs(i,a);
+                bfs(i,a);
                 ++ans;
             }
         }
