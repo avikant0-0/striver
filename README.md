@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/avikant0-0/striver/tree/master/0416-partition-equal-subset-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/avikant0-0/striver/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0435-non-overlapping-intervals](https://github.com/avikant0-0/striver/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/avikant0-0/striver/tree/master/0518-coin-change-ii) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/avikant0-0/striver/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/avikant0-0/striver/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/avikant0-0/striver/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/avikant0-0/striver/tree/master/0518-coin-change-ii) |
 | [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
@@ -284,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/avikant0-0/striver/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/avikant0-0/striver/tree/master/0229-majority-element-ii) |
+| [0435-non-overlapping-intervals](https://github.com/avikant0-0/striver/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/avikant0-0/striver/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
@@ -478,6 +481,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/avikant0-0/striver/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/avikant0-0/striver/tree/master/0135-candy) |
 | [0410-split-array-largest-sum](https://github.com/avikant0-0/striver/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/avikant0-0/striver/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
 | [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
