@@ -8,6 +8,7 @@ public:
         int cnt = 0;
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
+                if(a[i][j] == 1) ++cnt;
                 if(a[i][j] == 2){
                     q.push({i,j,0});
                     visited[i][j] = 1;
@@ -31,18 +32,11 @@ public:
                 if(ni >= 0 && ni < n && nj >= 0 && nj < m && !visited[ni][nj] && a[ni][nj] != 0){
                     visited[ni][nj] = 1;
                     q.push({ni,nj,top[2]+1});
+                    --cnt;
                     a[ni][nj] = 2;
                 }
             }
         }
-
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < m; j++){
-                if(a[i][j] == 1){
-                    return -1;
-                }
-            }
-        }
-        return ans;
+        return (cnt > 0 ? -1 : ans);
     }
 };
