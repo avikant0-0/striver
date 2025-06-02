@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/avikant0-0/striver/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/avikant0-0/striver/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/avikant0-0/striver/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/avikant0-0/striver/tree/master/0213-house-robber-ii) |
 | [0229-majority-element-ii](https://github.com/avikant0-0/striver/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/avikant0-0/striver/tree/master/0240-search-a-2d-matrix-ii) |
@@ -179,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/avikant0-0/striver/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/avikant0-0/striver/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/avikant0-0/striver/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
@@ -420,6 +422,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/avikant0-0/striver/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/avikant0-0/striver/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/avikant0-0/striver/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/avikant0-0/striver/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/avikant0-0/striver/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -490,6 +493,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/avikant0-0/striver/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/avikant0-0/striver/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/avikant0-0/striver/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/avikant0-0/striver/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/avikant0-0/striver/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/avikant0-0/striver/tree/master/0733-flood-fill) |
@@ -534,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/avikant0-0/striver/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/avikant0-0/striver/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/avikant0-0/striver/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/avikant0-0/striver/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/avikant0-0/striver/tree/master/1073-number-of-enclaves) |
