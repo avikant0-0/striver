@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/avikant0-0/striver/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
 | [0733-flood-fill](https://github.com/avikant0-0/striver/tree/master/0733-flood-fill) |
 | [0890-lemonade-change](https://github.com/avikant0-0/striver/tree/master/0890-lemonade-change) |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/avikant0-0/striver/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/avikant0-0/striver/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/avikant0-0/striver/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
 | [1250-longest-common-subsequence](https://github.com/avikant0-0/striver/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/avikant0-0/striver/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/avikant0-0/striver/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/avikant0-0/striver/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0733-flood-fill](https://github.com/avikant0-0/striver/tree/master/0733-flood-fill) |
@@ -478,6 +481,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/avikant0-0/striver/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/avikant0-0/striver/tree/master/0079-word-search) |
 | [0240-search-a-2d-matrix-ii](https://github.com/avikant0-0/striver/tree/master/0240-search-a-2d-matrix-ii) |
+| [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/avikant0-0/striver/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
