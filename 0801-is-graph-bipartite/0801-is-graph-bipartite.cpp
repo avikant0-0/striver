@@ -1,28 +1,41 @@
 class Solution {
 public:
-    bool dfs(int k,int c,auto& a,auto& color)
+    bool bfs(int node,auto& a,auto& color)
     {
-        color[k] = c;
+        queue<pair<int,int>> q;
+        color[node] = 0;
+        q.push({node,0});
 
-        for(int child : a[k])
-        {   
-            if(color[child] == -1)
+        while(!q.empty())
+        {
+            pair<int,int> top = q.front();
+            q.pop();
+
+            for(int child : a[top.first])
             {
-                if(dfs(child,!c,a,color) == false) return false;
+                if(color[child] == -1)
+                {
+                    q.push({child,!top.second});
+                    color[child] = !top.second;
+                }
+                else if(color[child] == top.second) return false;
             }
-            else if(color[child] == c) return false;
-        }   
+        }
 
         return true;
     }
-    bool isBipartite(vector<vector<int>>& a) 
-    {   
-        vector<int> color(a.size(), -1);
-        for (int i = 0; i < a.size(); i++) {
-            if (color[i] == -1) {
-                if (!dfs(i, 0, a, color)) return false;
+    bool isBipartite(vector<vector<int>>& a) {
+        int n = a.size();
+        vector<int> color(n,-1);
+
+        for(int i = 0; i < n; i++)
+        {
+            if(color[i] == -1)
+            {
+                if(!bfs(i,a,color)) return false;
             }
         }
+
         return true;
     }
 };
