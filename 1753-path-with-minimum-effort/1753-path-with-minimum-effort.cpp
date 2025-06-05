@@ -16,7 +16,7 @@ public:
 
         while(!q.empty())
         {
-            auto [oi,oj,mx] = q.top();
+            auto [mx,oi,oj] = q.top();
             q.pop();
 
             for(int i = 0; i < 4; i++)
@@ -28,7 +28,7 @@ public:
                 if(newstep < dist[ni][nj])
                 {
                     dist[ni][nj] = newstep;
-                    q.push(make_tuple(ni,nj,newstep));
+                    q.push(make_tuple(newstep,ni,nj));
                 }
             }
         }
