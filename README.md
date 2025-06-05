@@ -135,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/avikant0-0/striver/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/avikant0-0/striver/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1646-kth-missing-positive-number](https://github.com/avikant0-0/striver/tree/master/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/avikant0-0/striver/tree/master/1753-path-with-minimum-effort) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/avikant0-0/striver/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [2047-find-a-peak-element-ii](https://github.com/avikant0-0/striver/tree/master/2047-find-a-peak-element-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/avikant0-0/striver/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/avikant0-0/striver/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/avikant0-0/striver/tree/master/1753-path-with-minimum-effort) |
 | [2793-count-the-number-of-complete-components](https://github.com/avikant0-0/striver/tree/master/2793-count-the-number-of-complete-components) |
 ## String
 |  |
@@ -439,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/avikant0-0/striver/tree/master/1073-number-of-enclaves) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1753-path-with-minimum-effort](https://github.com/avikant0-0/striver/tree/master/1753-path-with-minimum-effort) |
 | [2793-count-the-number-of-complete-components](https://github.com/avikant0-0/striver/tree/master/2793-count-the-number-of-complete-components) |
 ## Binary Search
 |  |
@@ -456,6 +459,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/avikant0-0/striver/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/avikant0-0/striver/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1646-kth-missing-positive-number](https://github.com/avikant0-0/striver/tree/master/1646-kth-missing-positive-number) |
+| [1753-path-with-minimum-effort](https://github.com/avikant0-0/striver/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/avikant0-0/striver/tree/master/2047-find-a-peak-element-ii) |
 ## Bit Manipulation
 |  |
@@ -504,6 +508,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/avikant0-0/striver/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/avikant0-0/striver/tree/master/1753-path-with-minimum-effort) |
 | [2047-find-a-peak-element-ii](https://github.com/avikant0-0/striver/tree/master/2047-find-a-peak-element-ii) |
 | [2737-row-with-maximum-ones](https://github.com/avikant0-0/striver/tree/master/2737-row-with-maximum-ones) |
 | [3227-find-missing-and-repeated-values](https://github.com/avikant0-0/striver/tree/master/3227-find-missing-and-repeated-values) |
@@ -546,6 +551,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/avikant0-0/striver/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/avikant0-0/striver/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/avikant0-0/striver/tree/master/1753-path-with-minimum-effort) |
 | [2793-count-the-number-of-complete-components](https://github.com/avikant0-0/striver/tree/master/2793-count-the-number-of-complete-components) |
 ## Graph
 |  |
@@ -646,6 +652,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/avikant0-0/striver/tree/master/0451-sort-characters-by-frequency) |
 | [0948-sort-an-array](https://github.com/avikant0-0/striver/tree/master/0948-sort-an-array) |
+| [1753-path-with-minimum-effort](https://github.com/avikant0-0/striver/tree/master/1753-path-with-minimum-effort) |
 ## Merge Sort
 |  |
 | ------- |
