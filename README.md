@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/avikant0-0/striver/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
+| [0721-accounts-merge](https://github.com/avikant0-0/striver/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/avikant0-0/striver/tree/master/0733-flood-fill) |
 | [0890-lemonade-change](https://github.com/avikant0-0/striver/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/avikant0-0/striver/tree/master/0907-koko-eating-bananas) |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/avikant0-0/striver/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/avikant0-0/striver/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/avikant0-0/striver/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/avikant0-0/striver/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -229,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/avikant0-0/striver/tree/master/0451-sort-characters-by-frequency) |
 | [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
 | [0686-repeated-string-match](https://github.com/avikant0-0/striver/tree/master/0686-repeated-string-match) |
+| [0721-accounts-merge](https://github.com/avikant0-0/striver/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/avikant0-0/striver/tree/master/0812-rotate-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/avikant0-0/striver/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/avikant0-0/striver/tree/master/1078-remove-outermost-parentheses) |
@@ -284,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/avikant0-0/striver/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/avikant0-0/striver/tree/master/0451-sort-characters-by-frequency) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/avikant0-0/striver/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/avikant0-0/striver/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0940-fruit-into-baskets](https://github.com/avikant0-0/striver/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/avikant0-0/striver/tree/master/0966-binary-subarrays-with-sum) |
@@ -317,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/avikant0-0/striver/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/avikant0-0/striver/tree/master/0455-assign-cookies) |
 | [0561-array-partition](https://github.com/avikant0-0/striver/tree/master/0561-array-partition) |
+| [0721-accounts-merge](https://github.com/avikant0-0/striver/tree/master/0721-accounts-merge) |
 | [0948-sort-an-array](https://github.com/avikant0-0/striver/tree/master/0948-sort-an-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/avikant0-0/striver/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Counting
@@ -439,6 +444,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/avikant0-0/striver/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/avikant0-0/striver/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0721-accounts-merge](https://github.com/avikant0-0/striver/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/avikant0-0/striver/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/avikant0-0/striver/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/avikant0-0/striver/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -557,6 +563,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/avikant0-0/striver/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/avikant0-0/striver/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/avikant0-0/striver/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/avikant0-0/striver/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/avikant0-0/striver/tree/master/0801-is-graph-bipartite) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/avikant0-0/striver/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/avikant0-0/striver/tree/master/1073-number-of-enclaves) |
