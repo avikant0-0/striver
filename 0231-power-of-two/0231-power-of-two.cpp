@@ -1,14 +1,7 @@
 class Solution {
 public:
-    
-bool isPowerOfTwo(int n) {
-    if (n <= 0)
-        return false;
-
-    while (n % 2 == 0) {
-        n = n / 2;
+    bool isPowerOfTwo(int n) {
+        if( n == 0 ) return false;
+        return (((long long)(n)&((long long)(n)-1LL)) == 0LL);
     }
-
-    return n == 1;
-}
 };
