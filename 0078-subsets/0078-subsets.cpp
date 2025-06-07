@@ -1,21 +1,16 @@
 class Solution {
 public:
-    void f(int ind,auto&a ,auto& ans,auto& temp){
-        if(ind == a.size()){
-            ans.push_back(temp);
-            return;
-        }
-
-        temp.push_back(a[ind]);
-        f(ind+1,a,ans,temp);
-        temp.pop_back();
-
-        f(ind+1,a,ans,temp);
-    }
     vector<vector<int>> subsets(vector<int>& a) {
         vector<vector<int>> ans;
-        vector<int> temp;
-        f(0,a,ans,temp);
+        for(int i = 0; i < (1<<(a.size())); i++)
+        {
+            vector<int> temp;
+            for(int j = 0; j <= 31; j++){
+                int totake = ((i>>j)&1);
+                if(totake) temp.push_back(a[j]);
+            }
+            ans.push_back(temp);
+        }
         return ans;
     }
 };
