@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/avikant0-0/striver/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/avikant0-0/striver/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/avikant0-0/striver/tree/master/0200-number-of-islands) |
+| [0204-count-primes](https://github.com/avikant0-0/striver/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/avikant0-0/striver/tree/master/0213-house-robber-ii) |
 | [0229-majority-element-ii](https://github.com/avikant0-0/striver/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/avikant0-0/striver/tree/master/0240-search-a-2d-matrix-ii) |
@@ -505,6 +506,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/avikant0-0/striver/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/avikant0-0/striver/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/avikant0-0/striver/tree/master/0069-sqrtx) |
+| [0204-count-primes](https://github.com/avikant0-0/striver/tree/master/0204-count-primes) |
 | [0223-rectangle-area](https://github.com/avikant0-0/striver/tree/master/0223-rectangle-area) |
 | [0231-power-of-two](https://github.com/avikant0-0/striver/tree/master/0231-power-of-two) |
 | [1370-count-number-of-nice-subarrays](https://github.com/avikant0-0/striver/tree/master/1370-count-number-of-nice-subarrays) |
@@ -710,4 +712,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/avikant0-0/striver/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/avikant0-0/striver/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/avikant0-0/striver/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/avikant0-0/striver/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
