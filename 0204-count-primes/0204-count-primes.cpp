@@ -15,7 +15,7 @@ public:
     }
     int countPrimes(int n) 
     {   
-        vector<int> isPrime(n+1,1);
+        vector<int> isPrime(n,1);
         sieve(isPrime);
 
         int cnt = 0;
