@@ -1,19 +1,20 @@
 class Solution {
 public:
-    int rob(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> dp(n+1,-1);
+    vector<int> dp;
+    int f(int i,vector<int>& a)
+    {
+        int n = a.size();
+        if(i >= n ) return 0;
 
-        auto f = [&](int i,auto&& f)->int{
-            if(i >= n) return 0; 
+        if(dp[i] != -1) return dp[i];
 
-            if(dp[i]!= -1) return dp[i];
-            int ans1 = INT_MIN;
-            
-            ans1 = max(nums[i] + f(i+2,f) , f(i+1,f));
-            return dp[i] = ans1;
-        };
+        int curr = f(i+2,a) + a[i];
+        int adj = f(i+1,a);
 
-        return f(0,f); 
+        return dp[i] = max(curr,adj);
+    }
+    int rob(vector<int>& a) {
+        dp.assign(a.size(),-1);
+        return f(0,a);
     }
 };
