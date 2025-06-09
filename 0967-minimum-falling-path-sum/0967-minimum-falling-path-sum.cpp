@@ -1,25 +1,27 @@
 class Solution {
 public:
     vector<vector<int>> dp;
-    int f(int i,int j,auto &a)
-    {   
-        int n = a.size();
 
-        if(i == n - 1) return a[i][j];
-        if(dp[i][j] != INT_MAX) return dp[i][j];
-        int ans = 1e9;
-        for(int k = -1 ; k <= 1; k++){
-            if(j + k >= n || j + k < 0) continue;
-            ans = min(ans,f(i+1,j+k,a) + a[i][j]);
-        }
-
-        return dp[i][j] = ans;
-    }
     int minFallingPathSum(vector<vector<int>>& a) {
-        int ans = 1e9;
-        dp.assign(a.size(),vector<int>(a.size(),INT_MAX));
-        for(int i = 0; i < a.size(); i++) 
-            ans = min(ans,f(0,i,a));
-        return ans;
+        int n = a.size();
+        dp.assign(n,vector<int>(n,1e9));
+        
+        for(int j = 0; j < n; j++) dp[0][j] = a[0][j];
+
+        for(int i = 1; i < n; i++)
+        {
+            for(int j = 0; j < n; j++)
+            {
+                for(int k = -1; k <= 1; k++)
+                {   
+                    int pj = j + k;
+                    if(pj >= n || pj < 0) continue;
+                    int cost = a[i][j] + dp[i-1][pj];
+
+                    dp[i][j] = min(dp[i][j],cost);
+                }
+            }
+        }
+        return *min_element(dp[n-1].begin(),dp[n-1].end());
     }
 };
