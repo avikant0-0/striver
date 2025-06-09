@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/avikant0-0/striver/tree/master/0940-fruit-into-baskets) |
 | [0948-sort-an-array](https://github.com/avikant0-0/striver/tree/master/0948-sort-an-array) |
 | [0966-binary-subarrays-with-sum](https://github.com/avikant0-0/striver/tree/master/0966-binary-subarrays-with-sum) |
+| [0967-minimum-falling-path-sum](https://github.com/avikant0-0/striver/tree/master/0967-minimum-falling-path-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/avikant0-0/striver/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/avikant0-0/striver/tree/master/1046-max-consecutive-ones-iii) |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/avikant0-0/striver/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/avikant0-0/striver/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0967-minimum-falling-path-sum](https://github.com/avikant0-0/striver/tree/master/0967-minimum-falling-path-sum) |
 | [1250-longest-common-subsequence](https://github.com/avikant0-0/striver/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/avikant0-0/striver/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/avikant0-0/striver/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -535,6 +537,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/avikant0-0/striver/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/avikant0-0/striver/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/avikant0-0/striver/tree/master/0854-making-a-large-island) |
+| [0967-minimum-falling-path-sum](https://github.com/avikant0-0/striver/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/avikant0-0/striver/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/avikant0-0/striver/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/avikant0-0/striver/tree/master/1171-shortest-path-in-binary-matrix) |
