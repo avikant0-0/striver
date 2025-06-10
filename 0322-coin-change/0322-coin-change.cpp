@@ -1,23 +1,28 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        vector<long long> dp(amount + 1 , -1);
+        int n = coins.size();
+        vector<vector<int>> dp(n+1,vector<int>(amount+1,1e9));
+        
+        dp[0][0] = 0;
 
-        auto f = [&](int amount,auto&& f)->long long{
-            if(amount == 0) return 0;
+        for(int i = 1; i <= n; i++)
+        {
+            for(int j = 0; j <= amount; j++)
+            {
+                int take = 1e9;
+                if(coins[i-1] <= j)
+                {
+                    take = 1 + dp[i][j-coins[i-1]];
+                }
+                int nottake = dp[i-1][j];
 
-            if(dp[amount] != -1) return dp[amount];
-
-            long long ans = INT_MAX;
-
-            for(auto c : coins){
-                if(amount - c >= 0) ans = min(ans, 1 + f(amount - c,f));
-                // else return ans = min(ans,f(amount,f));
+                dp[i][j] =  min(take,nottake);
             }
+        }        
 
-            return dp[amount] = ans; 
-        };
-
-        return f(amount,f) >= INT_MAX ? -1 : f(amount,f);
+        int ans =  dp[n][amount];
+        if(ans >= 1e9) return -1;
+        return ans;
     }
 };
